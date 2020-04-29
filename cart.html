@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="shortcut icon" href="img/shortcut_icon.PNG"/>
+    <link rel="stylesheet" href="bootstrap-library/css/bootstrap-grid.min.css"/>
+    <link rel="stylesheet" href="bootstrap-library/css/bootstrap-reboot.min.css"/>
+    <link rel="stylesheet" href="bootstrap-library/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="bootstrap-library/js/bootstrap.min.js"></script>
+    <title>Mandala | Home</title>
+  </head>
+  <body>
+    <!-- header-->
+    <header class="header js-header">
+      <div class="container">
+        <div class="row">
+          <!-- logo-->
+          <h1 class="header__logo"><a href="#">Mandala</a></h1>
+          <!-- end logo-->
+          <div class="header__collapse-button">
+            <button class="button-collapse js-button-collapse" type="button"><i class="fas fa-bars"></i></button>
+          </div>
+          <!-- navigation-->
+          <nav class="header__nav js-header-nav">
+            <ul class="nav">
+              <li class="nav__item"><a class="nav__link" href="#">Trang chủ</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Giới thiệu</a></li>
+              <li class="nav__item"><a class="nav__link" href="#" data-dropdown="dropdown">Sản Phẩm<i class="fas fa-angle-down"></i></a>
+                <ul class="nav__children nav triangle-up triangle-up--green">
+                  <li class="nav__item"><a class="nav__link" href="#">Dưỡng da</a>
+                    <ul class="nav__item--care">
+                      <li class="nav__children--care"><a href="#">Áo khoác</a></li>
+                      <li class="nav__children--care"><a href="#">Bộ áo liền quần</a></li>
+                      <li class="nav__children--care"><a href="#">Dresses</a></li>
+                      <li class="nav__children--care"><a href="#">Quần / Váy</a></li>
+                      <li class="nav__children--care"><a href="#">Quần short</a></li>
+                      <li class="nav__children--care"><a href="#">Quần jeans</a></li>
+                      <li class="nav__children--care"><a href="#">Đồ đan</a></li>
+                      <li class="nav__children--care"><a href="#">Áo nỉ</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav__item"><a class="nav__link" href="#">Nước hoa</a>
+                    <ul class="nav__item--care">
+                      <li class="nav__children--care"><a href="#">Áo cánh / Áo sơ mi</a></li>
+                      <li class="nav__children--care"><a href="#">Túi xách &amp; Ba lô</a></li>
+                      <li class="nav__children--care"><a href="#">Khăn quàng cổ và Foulards</a></li>
+                      <li class="nav__children--care"><a href="#">Dệt kim Hats &amp; Gloves</a></li>
+                      <li class="nav__children--care"><a href="#">Vớ &amp; Socks</a></li>
+                      <li class="nav__children--care"><a href="#">Jewerly</a></li>
+                      <li class="nav__children--care"><a href="#">Bi bảo vệ</a></li>
+                      <li class="nav__children--care"><a href="#">Giày</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav__item"><a class="nav__link" href="#">Trang sức</a>
+                    <ul class="nav__item--care">
+                      <li class="nav__children--care"><a href="#">Áo cánh / Áo sơ mi</a></li>
+                      <li class="nav__children--care"><a href="#">Túi xách &amp; Ba lô</a></li>
+                      <li class="nav__children--care"><a href="#">Khăn quàng cổ và Foulards</a></li>
+                      <li class="nav__children--care"><a href="#">Dệt kim Hats &amp; Gloves</a></li>
+                      <li class="nav__children--care"><a href="#">Vớ &amp; Socks</a></li>
+                      <li class="nav__children--care"><a href="#">Jewerly</a></li>
+                      <li class="nav__children--care"><a href="#">Bi bảo vệ</a></li>
+                      <li class="nav__children--care"><a href="#">Giày</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav__item"><a class="nav__link" href="#">Tin tức</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Bản đồ</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Liên hệ</a></li>
+            </ul>
+          </nav>
+          <!-- end navigation-->
+          <div class="header__right">
+            <!-- shopping-cart-->
+            <div class="shopping-cart"><a class="shopping-cart__link" onclick="showCart()"><i class="fas fa-shopping-cart"></i></a></div>
+            <!-- end shopping-cart-->
+            <!-- form-search-->
+            <form class="form-search" action="#" method="GET">
+              <div class="form-search__input-container form-search__hidden">
+                <div class="form-search__main">
+                  <button class="form-search__button js-close-button" type="button"><i class="fas fa-ellipsis-h"></i></button>
+                  <input class="form-search__input" type="text" name="search" placeholder="Search..."/>
+                </div>
+              </div>
+              <button class="form-search__button js-search-button" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            <!-- end form-seach-->
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header-->
+    <!--body-->
+    <section class="container">
+      <div class="cart">
+        <h2 class="cart__title">Giỏ hàng</h2>
+      </div>
+      <div class="cart-detail">
+        <div class="cart-detail__table">
+          <table>
+            <tr>
+              <td>
+                <div class="td-img1">ảnh</div>
+              </td>
+              <td>
+                <div class="td-name1">tên sản phẩm</div>
+              </td>
+              <td>
+                <div class="td-price1">giá</div>
+              </td>
+              <td>
+                <div class="td-amount1">số lượng</div>
+              </td>
+              <td>
+                <div class="td-total1">tổng số</div>
+              </td>
+              <td>
+                <div class="td-delete1">xóa</div>
+              </td>
+            </tr>
+            <tr class="tr-cart"></tr>
+          </table>
+        </div>
+        <div class="cart-form">
+          <button class="cart-form__continue" type="submit" onclick="continueBuy()">Tiếp tục mua hàng</button>
+          <button class="cart-form__paid" type="submit" onclick="showPayment()">Thanh toán</button>
+          <button class="cart-form__delete" type="submit">Xóa</button>
+          <button class="cart-form__update" type="submit">Cập nhật</button>
+        </div>
+      </div>
+    </section>
+    <script src="js/cart.js"></script>
+    <footer class="footer">
+      <div class="container main-footer">
+        <div class="row">
+          <!-- contact-us-->
+          <div class="contact-us main-footer__item">
+            <h4 class="main-footer__title">Liên hệ với chúng tôi</h4>
+            <div class="contact-us__content">
+              <p class="contact-us__address"><i class="fas fa-map-marker-alt"></i><span>Tầng 4, Tòa nhà Hanoi Group Số 442 Đội Cấn, P. Cống Vị, Q. Ba Đình, Hà Nội</span></p>
+              <p class="contact-us__others"><span class="contact-us__item"><i class="fas fa-phone-alt"></i>(04) 6674 2332</span><span class="contact-us__hyphen">-</span><span class="contact-us__item"><i class="fas fa-phone-alt"></i>(04) 3786 8904</span></p>
+              <p class="contact-us__others"><span class="contact-us__item"><i class="fas fa-phone-alt"></i>(08) 6680 9686</span><a class="contact-us__item" href="mailto:Support@bizweb.vn"><i class="fas fa-envelope"></i>Support@bizweb.vn</a></p>
+            </div>
+          </div>
+          <div class="footer-others main-footer__item">
+            <h4 class="main-footer__title">Chuyển hàng</h4>
+            <ul class="footer-others__content">
+              <li class="footer-others__item"><a class="footer-others__link" href="#">Mua sắm trực tuyến</a></li>
+              <li class="footer-others__item"><a class="footer-others__link" href="#">Đến từ chúng tôi gửi đến</a></li>
+              <li class="footer-others__item"><a class="footer-others__link" href="#">Chính sách vận chuyển</a></li>
+              <li class="footer-others__item"><a class="footer-others__link" href="#">Vận chuyển thông tin</a></li>
+            </ul>
+          </div>
+          <div class="footer-others main-footer__item">
+            <h4 class="main-footer__title">Hỗ trợ</h4>
+            <ul class="footer-others__content">
+              <li class="footer-others__item"><a class="footer-others__link" href="#">Câu chuyện về chúng tôi</a></li>
+              <li class="footer-others__item"><a class="footer-others__link" href="#">Thanh toán an toàn</a></li>
+              <li class="footer-others__item"><a class="footer-others__link" href="#">Tùy chọn vận chuyển</a></li>
+              <li class="footer-others__item"><a class="footer-others__link" href="#">Chính sách vận chuyển</a></li>
+            </ul>
+          </div>
+          <div class="footer-others main-footer__item">
+            <h4 class="main-footer__title">Thông tin</h4>
+            <ul class="footer-others__content">
+              <li class="footer-others__item"><a class="footer-others__link" href="#">Về chúng tôi</a></li>
+              <li class="footer-others__item"><a class="footer-others__link" href="#">Điều khoản &amp; điều kiện</a></li>
+              <li class="footer-others__item"><a class="footer-others__link" href="#">Chính sách riêng tư</a></li>
+              <li class="footer-others__item"><a class="footer-others__link" href="#">Đơn đặt hàng và Returns</a></li>
+            </ul>
+          </div>
+          <div class="footer-others main-footer__item">
+            <h4 class="main-footer__title">My account</h4>
+            <ul class="footer-others__content">
+              <li class="footer-others__item"><a class="footer-others__link" href="#">Xem giỏ hàng</a></li>
+              <li class="footer-others__item"><a class="footer-others__link" href="#">Sản phẩm yêu thích</a></li>
+              <li class="footer-others__item"><a class="footer-others__link" href="#">Kiểm tra</a></li>
+              <li class="footer-others__item"><a class="footer-others__link" href="#">Theo dõi đặt hàng của tôi</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__end">
+        <div class="container">
+          <div class="row">
+            <!-- copyright-->
+            <div class="copyright">
+              <p class="copyright__text">&copy; Copyright 2008-2014 DKT Technology JSC</p>
+            </div>
+            <!-- end copyright-->
+            <!-- payment-->
+            <div class="payment"><a class="payment__type" href="#"><img src="img/mastercard.PNG" alt="MasterCard"/></a><a class="payment__type" href="#"><img src="img/visa.PNG" alt="Visa"/></a><a class="payment__type" href="#"><img src="img/paypal.PNG" alt="PayPal"/></a><a class="payment__type" href="#"><img src="img/maestro.PNG" alt="Maestro"/></a></div>
+            <!-- end payment-->
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/master.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

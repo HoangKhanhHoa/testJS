@@ -1,0 +1,36 @@
+.pay {
+  padding: 7% 0;
+
+  &__info{
+    margin-bottom: 9%;
+
+    &-2{
+      margin-top: 12%;
+      font-family: "Lobster";
+    }
+
+    &-name{
+      font-size: 28px;
+      padding-right: 15%;
+    }
+
+    &-amount{
+      font-size: 28px;
+      padding-right: 15%;
+    }
+
+    &-total{
+      font-size: 28px;
+    }
+  }
+
+  &__totalprice{
+    font-size: 22px;
+    margin-top: 3%;
+    margin-right: 4%;
+
+    span{
+      float: right;
+    }
+  }
+}

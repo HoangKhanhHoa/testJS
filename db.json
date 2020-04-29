@@ -1,0 +1,14 @@
+{
+  "product": [
+    {"id":1, "image": "img/oil_yellow.JPG","name": "HOME", "type": "Mỹ phẩm châu Âu", "price": 355.000, "amount": 0, "totalprice": 0},
+    {"id":2, "image": "img/oil_yellow.JPG","name": "HOME", "type": "Mỹ phẩm châu Âu", "price": 355.000, "amount": 0, "totalprice": 0},
+    {"id":3, "image": "img/oil_yellow.JPG","name": "HOME", "type": "Mỹ phẩm châu Âu", "price": 355.000, "amount": 0, "totalprice": 0},
+    {"id":4, "image": "img/oil_yellow.JPG","name": "HOME", "type": "Mỹ phẩm châu Âu", "price": 355.000, "amount": 0, "totalprice": 0},
+    {"id":5, "image": "img/oil_yellow.JPG","name": "HOME", "type": "Mỹ phẩm châu Âu", "price": 355.000, "amount": 0, "totalprice": 0},
+    {"id":6, "image": "img/oil_yellow.JPG","name": "HOME", "type": "Mỹ phẩm châu Âu", "price": 355.000, "amount": 0, "totalprice": 0},
+    {"id":7, "image": "img/oil_yellow.JPG","name": "HOME", "type": "Mỹ phẩm châu Âu", "price": 355.000, "amount": 0, "totalprice": 0},
+    {"id":8, "image": "img/oil_yellow.JPG","name": "HOME", "type": "Mỹ phẩm châu Âu", "price": 355.000, "amount": 0, "totalprice": 0},
+    {"id":9, "image": "img/oil_yellow.JPG","name": "HOME", "type": "Mỹ phẩm châu Âu", "price": 355.000, "amount": 0, "totalprice": 0},
+    {"id":10, "image": "img/oil_yellow.JPG","name": "HOME", "type": "Mỹ phẩm châu Âu", "price": 355.000, "amount": 0, "totalprice": 0}
+  ]
+}
